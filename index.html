@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FitHealth</title>
+  <meta name="description" content="FitHealth: app personal de rendimiento, sueño y recuperación con datos de Fitbit.">
+  <link rel="icon" href="icono.png">
+  <style>
+    :root { --fondo: #0b0b14; --tarjeta: #171a36; --borde: #2a2f5c; --morado: #8b5cf6; --morado-claro: #b49cff; --texto: #eeedff; --tenue: #9c9bc0; }
+    body { margin: 0; background: var(--fondo); color: var(--texto); font-family: -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.6; }
+    main { max-width: 680px; margin: 0 auto; padding: 48px 20px; }
+    header { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }
+    header img { width: 64px; height: 64px; border-radius: 16px; }
+    h1 { margin: 0; font-size: 34px; }
+    .lema { color: var(--tenue); margin: 0; }
+    .tarjeta { background: var(--tarjeta); border: 1px solid var(--borde); border-radius: 18px; padding: 20px 24px; margin: 20px 0; }
+    h2 { font-size: 19px; margin-top: 0; }
+    a { color: var(--morado-claro); }
+    footer { color: var(--tenue); font-size: 14px; margin-top: 32px; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icono.png" alt="">
+    <div>
+      <h1>FitHealth</h1>
+      <p class="lema">Rendimiento, sueño y recuperación, a tu medida.</p>
+    </div>
+  </header>
+
+  <div class="tarjeta">
+    <h2>Qué es</h2>
+    <p>FitHealth es una aplicación personal, de uso privado, que muestra los datos de una pulsera Fitbit
+    de forma pensada para entrenar mejor: un semáforo diario de recuperación, el registro de entrenos,
+    el análisis del sueño, las calorías y los retos semanales.</p>
+  </div>
+
+  <div class="tarjeta">
+    <h2>Cómo usa tus datos</h2>
+    <p>FitHealth se conecta a la Google Health API únicamente con permisos de <strong>solo lectura</strong>
+    para leer actividad, sueño y métricas de salud de la cuenta de su propietario. No escribe, no vende y no
+    comparte esos datos con nadie.</p>
+    <p>Los detalles están en la <a href="privacidad.html">política de privacidad</a>.</p>
+  </div>
+
+  <footer>
+    FitHealth es un proyecto personal y no está afiliado a Google ni a Fitbit.
+    · <a href="privacidad.html">Privacidad</a>
+  </footer>
+</main>
+</body>
+</html>
